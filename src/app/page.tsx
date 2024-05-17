@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from 'react'
-import Nav from './components/Nav';
 import Dashboard from './components/dashboard';
 import Footer from './components/Footer';
 
@@ -18,7 +17,7 @@ import {
 	Image
 } from "@nextui-org/react"
 
-function page() {
+function Page() {
 
 	useEffect(() => {
 		AOS.init()
@@ -41,7 +40,7 @@ function page() {
 
 				<section>
 					<div className='grid gap-[100px] my-[100px] mx-[10vw] grid-cols-1 sm:grid-cols-2'>
-						<Image data-aos="fade-right" src='#' className='w-[30vw] h-[30vw] border-solid border-1 border-blue-500' />
+						<Image data-aos="fade-right" src='#' className='w-[30vw] h-[30vw] border-solid border-1 border-blue-500' alt='demo-image' />
 						<div className='text-left'>
 							<h1 data-aos="fade-down-left" className='text-[4vw] font-bold mb-4'>Share a Project</h1>
 							<p data-aos="fade-up-right" className='text-[3vw] sm:text-[1.5vw]'>
@@ -67,9 +66,9 @@ function page() {
 								culpa qui officia deserunt mollit anim id est laborum.
 							</p>
 						</div>
-						<Image data-aos="fade-left" src='#' className='w-[30vw] h-[30vw] border-solid border-1 border-blue-500' />
+						<Image data-aos="fade-left" src='#' className='w-[30vw] h-[30vw] border-solid border-1 border-blue-500' alt='demo-image' />
 
-						<Image data-aos="fade-right" src='#' className='w-[30vw] h-[30vw] border-solid border-1 border-blue-500' />
+						<Image data-aos="fade-right" src='#' className='w-[30vw] h-[30vw] border-solid border-1 border-blue-500' alt='demo-image' />
 						<div className='text-left'>
 							<h1 data-aos="fade-down-left" className='text-[4vw] font-bold mb-4'>Follow Other Users</h1>
 							<p data-aos="fade-up-right" className='text-[3vw] sm:text-[1.5vw]'>
@@ -87,7 +86,7 @@ function page() {
 				</section>
 
 				<div>
-					<h1 data-aos="fade-right" className='text-3xl font-bold my-4'>Don't have an account?</h1>
+					<h1 data-aos="fade-right" className='text-3xl font-bold my-4'>Don&apos;t have an account?</h1>
 					<Button data-aos="fade-left" color='primary' as={Link} href='/sign-up'>Signup</Button>
 				</div>
 				<Footer />
@@ -96,5 +95,5 @@ function page() {
 	)
 }
 
-export default page
+export default Page
 

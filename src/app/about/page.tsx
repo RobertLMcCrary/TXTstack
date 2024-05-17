@@ -79,7 +79,7 @@ function About() {
                         environment where users can network, seek assistance, and gather
                         valuable feedback from their peers. By connecting like-minded
                         individuals, we aim to create a community that not only celebrates
-                        innovation but also supports and enhances each member's journey in
+                        innovation but also supports and enhances each member&apos;s journey in
                         the world of technology and development.
                     </p>
                 </div>

@@ -20,9 +20,6 @@ function page() {
     return (
         <div className='flex flex-col justify-center items-center gap-[100px] my-[100px]'>
             <UserProfile />
-            <div>
-                <h1 className='text-3xl font-bold'>Your Posts</h1>
-            </div>
         </div>
     )
 }

@@ -23,14 +23,6 @@ type teamMember = {
     role: string,
 }
 
-const team: teamMember[] = [
-    {
-        id: 1,
-        name: "Robert McCrary",
-        role: "CEO, Founder"
-    }
-]
-
 function About() {
 
     useEffect(() => {
@@ -39,20 +31,6 @@ function About() {
 
     return (
         <div className='items-center text-center'>
-
-            <section className='mx-[10vw]'>
-                <h1 className='text-[4vw] my-[20px] font-bold'>Our Team</h1>
-                <div className='grid grid-cols-1 gap-[50px]'>
-                    {team.map((member) => (
-                        <Card data-aos="flip-up" key={member.id} className='bg-gray-200 p-[15px]'>
-                            <CardHeader className='text-2xl font-bold'>{member.name}</CardHeader>
-                            <CardBody className='text-xl'>
-                                {member.role}
-                            </CardBody>
-                        </Card>
-                    ))}
-                </div>
-            </section>
 
             <section className='grid sm:grid-cols-2 grid-cols-1 text-left mt-[200px] mx-[7vw] gap-[7vw]'>
                 <div>

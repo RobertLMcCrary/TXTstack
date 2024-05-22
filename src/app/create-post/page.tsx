@@ -1,11 +1,10 @@
 "use client"
 import React from 'react'
-import PostForm from '../components/PostForm'
 
 function Page() {
     return (
         <div>
-            <PostForm />
+            <h1>create post page with form</h1>
         </div>
     )
 }

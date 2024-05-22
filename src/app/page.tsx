@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from 'react'
-import Dashboard from './components/dashboard';
 import Footer from './components/Footer';
 
 //clerk
@@ -26,7 +25,7 @@ function Page() {
 	return (
 		<div className='text-center items-center flex flex-col'>
 			<SignedIn>
-				<Dashboard />
+				<h1>Dashboard component goes here</h1>
 			</SignedIn>
 
 			<SignedOut>
